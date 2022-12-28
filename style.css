@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ._acun {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: var(--desktop-nav-height);
+    justify-content: center;
+    max-width: calc(935px + 40px);
+    padding: 0 20px;
+    transition: height var(--desktop-nav-anim-duration) ease-in-out;
+    width: 100%;
+    z-index: 10;
+} */
+
+body {
+    background-color: #fafafa;
+}
+
+nav {
+    background-color: #fff;
+    padding: 17px 0px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.instalgram-logo {
+    font-size: 24px;
+    font-style: italic;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.search_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.search {
+    padding: 9px 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #efefef;
+}
+
+.nav-icon {
+    margin-left: 35px;
+}
+
+.nav-icon i {
+    padding: 0 15px;
+    font-size: 23px;
+    color: #000;
+}

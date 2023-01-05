@@ -146,11 +146,16 @@ nav {
     justify-content: space-between;
 }
 
-.container-box-header1 {
+.ellipis {
+    margin: 20px;
+}
+
+.container-box-header1,
+.icons,
+.fter-info {
     display: flex;
     align-items: center;
     margin: 10px 15px;
-    /* justify-content: space-evenly; */
 }
 
 .container-box-header img {
@@ -159,8 +164,34 @@ nav {
     border-radius: 50%;
     border: 2px solid #efefef;
     margin: 0 15px;
+    border: 3px solid #af2634;
 }
 
 .display-img {
     width: 100%;
+}
+
+.icons,
+.fter-info {
+    justify-content: space-between;
+}
+
+.regular-icons i {
+    margin: 8px;
+    font-size: 25px;
+}
+
+.more-info {
+    padding: 30px;
+    line-height: 2em;
+}
+
+
+/* .fter-info {
+    border: 1px solid #f2f3f5;
+} */
+
+.fter-info {
+    padding: 5px;
+    font-size: 18px;
 }

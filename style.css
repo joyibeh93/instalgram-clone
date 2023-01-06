@@ -85,7 +85,7 @@ nav {
 .containter-box-img {
     background-color: #fff;
     display: flex;
-    padding: 10px 0;
+    padding: 10px 16px;
     border: 1px solid #efefef;
     border-radius: 8px;
     margin: 0 16px;
@@ -137,7 +137,7 @@ nav {
     margin: 10px 300px;
     border: 1px solid #efefef;
     background-color: #fff;
-    width: 420px;
+    width: 450px;
     border-radius: 10px;
 }
 
@@ -194,4 +194,20 @@ nav {
 .fter-info {
     padding: 5px;
     font-size: 18px;
+}
+
+.fa-face-smile {
+    font-size: 30px;
+}
+
+.comment {
+    color: #8d949e;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.ig-post {
+    color: rgb(134, 218, 255);
+    font-weight: 600;
 }
